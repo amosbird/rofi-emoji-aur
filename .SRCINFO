@@ -1,0 +1,16 @@
+pkgbase = rofi-emoji
+	pkgdesc = A Rofi plugin for selecting emojis
+	pkgver = 2.1.0
+	pkgrel = 1
+	url = https://github.com/amosbird/rofi-emoji
+	arch = x86_64
+	license = BSD
+	depends = rofi
+	optdepends = xsel: X11 support
+	optdepends = xclip: X11 support
+	optdepends = wl-clipboard: Wayland support
+	source = rofi-emoji::git+https://github.com/amosbird/rofi-emoji.git
+	sha512sums = SKIP
+
+pkgname = rofi-emoji
+
